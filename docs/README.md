@@ -1,4 +1,5 @@
 # Välkommen
+Test
 
 Välkommen till Ekstammens Wiki.  
 Tanken med denna wikin är att vi ska kunna samla all nödvändig information som behövs för att få svara på alla frågor som berör vår community och spelserver.  
