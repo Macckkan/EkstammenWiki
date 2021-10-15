@@ -6,7 +6,7 @@ module.exports = {
    */
   title: 'Ekstammen Wiki',
 
-  base: '/',
+  base: '/EkstammenWiki/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
