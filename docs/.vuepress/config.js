@@ -58,7 +58,6 @@ module.exports = {
           text: 'Hem',
           collapsable: false,
           children: [
-            '/',
             '/discord.md',
             '/vote.md',
           ]
