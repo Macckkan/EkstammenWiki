@@ -18,10 +18,10 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { charset: 'utf-8' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'icon', href: '/ekstammen_logo.png' }]
+    ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
 
   /**
@@ -32,12 +32,19 @@ module.exports = {
   themeConfig: {
     smoothScroll: true,
     repo: 'Macckkan/EkstammenWiki',
-    editLinks: false,
-    docsDir: '',
-    sidebarDepth: 2,
+    docsDir: 'docs',
+    editLink: true,
     editLinkText: 'Redigera Dokument',
     lastUpdated: true,
     lastUpdatedText: 'Senast uppdaterad',
+    contributors: false,
+    sidebarDepth: 2,
+    danger: 'FARA',
+    tip: 'TIPS',
+    warning: 'VARNING',
+    notFound: ['Sidan hittades inte'],
+    backToHome: 'Ta mig tillbaka',
+    logo: '/images/ekstammen_logo.png',
     navbar: [
       {
         text: 'Hem',
@@ -71,7 +78,7 @@ module.exports = {
             '/towny/regler.md',
             {
               text: 'Plugins',
-              collapsable: true,
+              collapsable: false,
               children: [
                 '/towny/plugins/towny.md',
               ]
