@@ -13,7 +13,7 @@
   * *Vi vill inte att man gör reklam, varken för andra servrar, discord, youtubekanaler eller något.*
 
 * §5.  Undvik inte AFK systemet.  
-  **AFK systemet finns av en anledning och ska inte undvikas.*
+  * *AFK systemet finns av en anledning och ska inte undvikas.*
 
 * §6.  Griefing är inte tillåtet.  
   * *Griefing är tillåtet i ett oskyddat område MEN kom ihåg vad griefing innebär.  
@@ -22,7 +22,7 @@ besvära en annan spelare ("grief" i betydelsen orsaka någon ”sorg” för si
 Med andra ord om vi anser att syftet är för att förstöra så räknar vi det som griefing oavsett om området är skyddat eller inte.*
 
 * §7.  Använd ett vårdat språk.  
-  **Vi har ett vårdat språk, det är många yngre som spelar här och därför håller vi en nivå som är lämplig för alla.*
+  * *Vi har ett vårdat språk, det är många yngre som spelar här och därför håller vi en nivå som är lämplig för alla.*
 
 * §8.  Skapa inte lagg.  
   * *Bygg inte maskiner / lagringsystem / farmer eller annat som orsakar lagg på servern.*
