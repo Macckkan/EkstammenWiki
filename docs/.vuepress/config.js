@@ -47,8 +47,12 @@ module.exports = {
     logo: '/images/ekstammen_logo.png',
     navbar: [
       {
-        text: 'Hem',
-        link: '/',
+        text: 'Towny',
+        link: '/towny/',
+      },
+      {
+        text: 'SMP',
+        link: '/smp/',
       },
       {
         text: 'Hemsida',
@@ -57,44 +61,79 @@ module.exports = {
       {
         text: 'Discord',
         link: 'http://discord.ekstammen.nu',
-      }
+      },
     ],
     sidebar: {
       '/': [
         {
           text: 'Hem',
-          collapsable: false,
           children: [
-            '/',
+            '/hem/',
             '/discord.md',
             '/vote.md',
           ]
         },
         {
           text: 'Towny',
-          collapsable: false,
           children: [
             '/towny/',
-            '/towny/regler.md',
-            {
-              text: 'Plugins',
-              collapsable: false,
-              children: [
-                '/towny/plugins/towny.md',
-              ]
-            }
           ]
         },
         {
           text: 'SMP',
-          collapsable: false,
+          children: [
+            '/smp/',
+          ]
+        },
+      ],
+      '/towny/': [
+        {
+          text: 'Hem',
+          children: [
+            '/hem/',
+            '/discord.md',
+            '/vote.md',
+          ]
+        },
+        {
+          text: 'Towny',
+          children: [
+            '/towny/',
+            '/towny/regler.md',
+            '/towny/spawn/',
+          ]
+        },
+        {
+          text: 'Funktioner & Plugins',
+          children: [
+            '/towny/plugins/towny.md',
+            '/towny/plugins/chestshop.md',
+            '/towny/plugins/cmi.md',
+            '/towny/plugins/jobs.md',
+            '/towny/plugins/lwc.md',
+            '/towny/plugins/mobfarmmanager.md',
+            '/towny/plugins/playershopgui.md',
+          ]
+        }
+      ],
+      '/smp/': [
+        {
+          text: 'Hem',
+          children: [
+            '/hem/',
+            '/discord.md',
+            '/vote.md',
+          ]
+        },
+        {
+          text: 'SMP',
           children: [
             '/smp/',
             '/smp/regler.md',
             '/smp/datapacks.md',
           ]
         }
-      ],
+      ]
     }
   },
 
