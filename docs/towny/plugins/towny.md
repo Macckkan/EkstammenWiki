@@ -34,7 +34,7 @@ Där efter kommer priset öka med 1% för varje bonustomt ni köper till staden.
 
 ## Ranker
 ::: danger
-GE ENDAST RANKER TILL DE DU LITAR PÅ TILL 100%.
+Tilldela ranker till spelare du litar på till 100%
 :::
 Dessa stadsranker finns på servern  
 
