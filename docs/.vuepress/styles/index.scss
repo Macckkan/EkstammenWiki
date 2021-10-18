@@ -3,7 +3,7 @@
 
   // brand colors
   --c-brand: #69ff55;
-  --c-brand-light: #4abf8a;
+  --c-brand-light: #1daf00;
 
   // background colors
   --c-bg: #ffffff;
@@ -41,7 +41,7 @@
   --c-danger-title: #990000;
   --c-danger-text: #660000;
   --c-danger-text-accent: var(--c-text);
-  --c-details-bg: #eeeeee;
+  --c-details-bg: #da0c0c;
 
   // badge component colors
   --c-badge-tip: var(--c-tip);
@@ -71,6 +71,17 @@
   --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
   --content-width: 740px;
   --homepage-width: 960px;
+}
+
+.sidebar {
+  font-size: 14px;
+
+  .sidebar-heading {
+		font-weight: 700;
+		font-size: 1em;
+		border-left-width: 0;
+		text-transform: uppercase;
+	}
 }
 
 // plugin-back-to-top
@@ -135,7 +146,7 @@ html.dark {
   --c-brand-light: #349469;
 
   // background colors
-  --c-bg: #22272e;
+  --c-bg: #1a1a1a;
   --c-bg-light: #2b313a;
   --c-bg-lighter: #262c34;
 
