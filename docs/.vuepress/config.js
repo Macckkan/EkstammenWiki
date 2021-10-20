@@ -132,7 +132,13 @@ module.exports = {
             '/towny/plugins/mobfarmmanager.md',
             '/towny/plugins/playershopgui.md',
           ]
-        }
+        },
+        {
+          text: 'SMP',
+          children: [
+            '/smp/',
+          ]
+        },
       ],
       '/smp/': [
         {
@@ -148,6 +154,12 @@ module.exports = {
             '/vote.md',
             '/ranker.md',
             '/tokens.md',
+          ]
+        },
+        {
+          text: 'Towny',
+          children: [
+            '/towny/',
           ]
         },
         {
