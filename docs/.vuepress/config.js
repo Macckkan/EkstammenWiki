@@ -47,6 +47,10 @@ module.exports = {
     logo: '/images/ekstammen_logo.png',
     navbar: [
       {
+        text: 'Hem',
+        link: '/',
+      },
+      {
         text: 'Towny',
         link: '/towny/',
       },
@@ -68,9 +72,16 @@ module.exports = {
         {
           text: 'Hem',
           children: [
-            '/hem/',
+            '/',
             '/discord.md',
+          ]
+        },
+        {
+          text: 'Server nätverk',
+          children: [
             '/vote.md',
+            '/ranker.md',
+            '/tokens.md',
           ]
         },
         {
@@ -90,9 +101,16 @@ module.exports = {
         {
           text: 'Hem',
           children: [
-            '/hem/',
+            '/',
             '/discord.md',
+          ]
+        },
+        {
+          text: 'Server nätverk',
+          children: [
             '/vote.md',
+            '/ranker.md',
+            '/tokens.md',
           ]
         },
         {
@@ -120,9 +138,16 @@ module.exports = {
         {
           text: 'Hem',
           children: [
-            '/hem/',
+            '/',
             '/discord.md',
+          ]
+        },
+        {
+          text: 'Server nätverk',
+          children: [
             '/vote.md',
+            '/ranker.md',
+            '/tokens.md',
           ]
         },
         {
