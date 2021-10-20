@@ -214,7 +214,7 @@ Alias: `/t`
 	- `homeblock` | Sätt hemblock och spawn för din stad
 	- `spawn` | Sätt stadens spawn. Måste göras inom ett hemblock
 	- `spawncost (mynt)` | Bestäm vad det ska kosta att teleportera till en publik stad. Invånare, nation medlemmar och allierade påverkas ej
-	- `name (namn)` | Ändra din stads namn
+	- `name (namn)` | Ändra din stads namn <ins>*detta kostar 20.000 mynt*</ins>
 	- `outpost` | Ändrar outpostens spawn till platsen du står på. Måste användas inom en existerande outpost tomt
 	- `jail` | Ändrar fängelsetomtens spawn till platsen du står på. Måste användas inom en existerande fängelsetomt
 	- `perm`
