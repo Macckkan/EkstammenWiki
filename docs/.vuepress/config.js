@@ -119,12 +119,14 @@ module.exports = {
             '/towny/',
             '/towny/regler.md',
             '/towny/spawn/',
+            '/towny/ranker.md',
           ]
         },
         {
           text: 'Funktioner & Plugins',
           children: [
             '/towny/plugins/towny.md',
+            '/towny/plugins/discord.md',
             '/towny/plugins/chestshop.md',
             '/towny/plugins/cmi.md',
             '/towny/plugins/jobs.md',
