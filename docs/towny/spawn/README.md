@@ -26,7 +26,7 @@ Om du vänsterklickar på dem så kan du se vad det finns för vinster
 Alla nycklar går att använda i **/warp crates** med undantag av hemlig nyckel.  
   
 #### Vanlig  
-När man [röstar](./../../vote.md) får man en votenyckel.   
+När man [röstar](./../../vote.md) får man en vanlig nyckel.   
   
 #### Epic
 Epic nycklar går att köpa med [tokens](./tokens).  
