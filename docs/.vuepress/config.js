@@ -169,6 +169,11 @@ module.exports = {
           children: [
             '/smp/',
             '/smp/regler.md',
+          ]
+        },
+        {
+          text: 'Funktioner & Datapacks',
+          children: [
             '/smp/datapacks.md',
           ]
         }
