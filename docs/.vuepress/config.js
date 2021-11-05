@@ -38,6 +38,7 @@ module.exports = {
     lastUpdated: true,
     lastUpdatedText: 'Senast uppdaterad',
     contributors: true,
+    contributorsText: 'Uppdaterare',
     sidebarDepth: 2,
     danger: 'FARA',
     tip: 'TIPS',
