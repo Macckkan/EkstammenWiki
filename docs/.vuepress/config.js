@@ -37,7 +37,7 @@ module.exports = {
     editLinkText: 'Redigera Dokument',
     lastUpdated: true,
     lastUpdatedText: 'Senast uppdaterad',
-    contributors: false,
+    contributors: true,
     sidebarDepth: 2,
     danger: 'FARA',
     tip: 'TIPS',
